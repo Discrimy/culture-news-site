@@ -1,0 +1,167 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.img-responsive {
+    object-fit: cover;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.nav__title {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.nav__links {
+    font-size: 15px;
+    margin: 0 50px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.large-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: gray url("imgs/Hotel-11.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+.large-post__icon {
+    margin-top: 40px;
+}
+.large-post__icon-img {
+    width: 55px;
+    height: 55px;
+}
+.large-post__title {
+    font-size: 72px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 30px auto 80px auto;
+}
+.large-post__description {
+    font-size: 14px;
+    width: 40%;
+}
+
+
+.posts {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.posts__title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+    font-size: 17px;
+    font-weight: bold;
+}
+.posts__list {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.post__title {
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+    margin: 10px 0;
+}
+.post__description {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+.special-offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #F7F7F7;
+    margin: 40px auto;
+}
+.special-offer__title {
+    font-size: 17px;
+    font-weight: bold;
+}
+.special-offer__proses {
+    width: 30%;
+}
+.special-offer__pros {
+    border-bottom: 1px solid #C4C4C4;
+    border-bottom-width: 30%;
+    margin: 20px auto;
+}
+.special-offer__pros__title {
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+}
+.special-offer__pros__description {
+    font-size: 14px;
+}
+.special-offer__more {
+    text-decoration: none;
+    color: white;
+    background: #FF7931;
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+
+.footer {
+    background: #575757;
+    color: white;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.footer__title {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.footer__links {
+    font-size: 15px;
+    margin: 0 50px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.footer__link {
+    text-decoration: none;
+    color: white;
+}
