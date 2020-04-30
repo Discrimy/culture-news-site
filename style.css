@@ -10,6 +10,12 @@ body {
 .title-special {
     color: #FF7931;
 }
+.delimiter {
+    margin: 0 auto;
+    height: 1px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
 .nav {
     display: flex;
@@ -119,8 +125,6 @@ body {
     width: 30%;
 }
 .special-offer__pros {
-    border-bottom: 1px solid #C4C4C4;
-    border-bottom-width: 30%;
     margin: 20px auto;
 }
 .special-offer__pros__title {
@@ -144,6 +148,7 @@ body {
 .footer {
     background: #575757;
     color: white;
+    overflow: auto;
 }
 .footer__nav {
     display: flex;
@@ -169,4 +174,18 @@ body {
 .footer__link {
     text-decoration: none;
     color: white;
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.social__icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    margin: 0 10px;
 }
