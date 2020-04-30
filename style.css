@@ -7,6 +7,9 @@ body {
     object-fit: cover;
     width: 100%;
 }
+.title-special {
+    color: #FF7931;
+}
 
 .nav {
     display: flex;
@@ -105,10 +108,12 @@ body {
     text-align: center;
     background: #F7F7F7;
     margin: 40px auto;
+    padding: 20px 0;
 }
 .special-offer__title {
     font-size: 17px;
     font-weight: bold;
+    padding: 0;
 }
 .special-offer__proses {
     width: 30%;
