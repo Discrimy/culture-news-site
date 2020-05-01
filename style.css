@@ -113,6 +113,10 @@ body {
     font-size: 14px;
     margin: 10px 0;
 }
+.post__link {
+    color: inherit;
+    text-decoration: inherit;
+}
 
 
 .special-offer {
