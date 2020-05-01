@@ -133,6 +133,7 @@ body {
 }
 .special-offer__pros__description {
     font-size: 14px;
+    margin: 20px 0;
 }
 .special-offer__more {
     text-decoration: none;
